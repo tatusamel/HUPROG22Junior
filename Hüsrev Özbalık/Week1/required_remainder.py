@@ -1,4 +1,4 @@
-// Kod çalışıyo site bozuk
+#Kod çalışıyo site bozuk
 def ultimateFinder(divider, remainder, ultimate):
     ud = ultimate % divider
     return ultimate - (ud - remainder if remainder <= ud else divider - (remainder - ud))
