@@ -10,6 +10,8 @@ class MyStack {
  public:
   int a[MAX];
 
+  MyStack() { top = -1; }
+
   bool push(int x) {
     if (top >= MAX - 1) {
       cout << "Stack overflow" << endl;
@@ -39,6 +41,8 @@ class MyStack {
       return x;
     }
   }
+
+  int size() { return top + 1; }
 
   bool isEmpty() { return top < 0; }
 };
