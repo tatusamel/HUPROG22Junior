@@ -63,7 +63,11 @@ public:
 
 int main(){
 
-    cout << Solution().removeOuterParentheses("(()())(())") << endl;
+    string str;
+    cin >> str;
+    string newStr = Solution().removeOuterParantheses(str);
+
+    cout << newStr << endl;
 
     return 0;
 }
