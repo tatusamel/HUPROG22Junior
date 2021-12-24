@@ -65,7 +65,7 @@ int main(){
 
     string str;
     cin >> str;
-    string newStr = Solution().removeOuterParantheses(str);
+    string newStr = Solution().removeOuterParentheses(str);
 
     cout << newStr << endl;
 
