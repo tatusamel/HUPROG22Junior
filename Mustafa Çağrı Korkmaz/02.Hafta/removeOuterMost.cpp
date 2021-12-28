@@ -54,7 +54,7 @@ public:
                 } else {
                     toCheckOuter.push(i);
                 }
-                outputString += string(1, i);
+                outputString += i;
             }
         }
         return outputString;
