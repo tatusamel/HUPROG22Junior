@@ -1,5 +1,7 @@
 #include<iostream>
 
+// Created this function to be able to sort the sub-lists in MergeSort function
+// It basically creates 2 temporary lists and sorts them to send the upper activation record.
 
 void MergeTwo(int A[], int l, int m, int h) {
     int length1 = m - l + 1;
@@ -41,6 +43,7 @@ void MergeTwo(int A[], int l, int m, int h) {
         A[k++] = list2[j++];
     }
 }
+
 
 void MergeSort(int A[], int l, int h) {
     int m = (l + h) / 2;
