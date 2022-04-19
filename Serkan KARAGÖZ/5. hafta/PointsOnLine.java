@@ -1,6 +1,6 @@
 // This solution costed my hours of struggling and debugging.
 // I was about to lose my sanity.
-// Serkan Karagöz.
+// Serkan Karagoz.
 
 import java.util.Scanner;
 public class PointsOnLine {
