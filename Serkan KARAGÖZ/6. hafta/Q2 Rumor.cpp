@@ -27,7 +27,7 @@ int dfsWithMinimumCost(int index, vector<vector<int>>& graph, int* costs, bool* 
             }
         }
         if(! hasUnvisited){
-            minCost = min(minCost, visitList.top());
+            minCost = min(minCost, costs[visitList.top()]);
             visitList.pop();
         }
     }
