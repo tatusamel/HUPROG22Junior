@@ -2,6 +2,10 @@ import math
 
 t = int(input())
 
+"""
+Sayının en büyük gcd si kareköküyle olur.
+"""
+
 for i in range(t):
     n = int(input())
     flag = True
